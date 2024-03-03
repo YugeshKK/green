@@ -1,0 +1,18 @@
+@media screen and (width<=412px) {
+    .home-cont{
+        color: white;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+    .one{
+        display: flex;
+        justify-content: flex-end;
+        margin: 10px;
+    }
+    .two{
+        display: flex;
+        justify-content: center;
+        margin-top: 104px;
+    }
+}

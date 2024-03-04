@@ -1,0 +1,227 @@
+
+.emp-cont{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    background-color: black;
+    color: white;
+}
+
+.thre{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.thre input{
+    width: 240px;
+    height: 40px;
+    color: white;
+    background-color: grey;
+    border-radius: 20px;
+    padding-left: 10px;
+}
+.fou{
+    display: flex;
+    flex-direction: column;
+    margin:30px;
+    gap: 20px;
+    max-width:190vh;
+}
+.emp{
+    background-color: #5E5E5E82;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+.emp-cont>:last-child{
+    position: sticky;
+    bottom: 0;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (width<=390px) {
+    .emp-cont{
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+        background-color: black;
+    }
+    .one{
+        display: flex;
+        justify-content: space-between;
+        margin: 10px;
+    }
+    .one img{
+        cursor: pointer;
+    }
+
+    .two{
+        display: flex;
+        justify-content: center;
+        margin-top: 104px;
+    }
+    .thre{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+        margin-top: 30px;
+        height: 55px;
+        color: white;
+        border-radius: 20px;
+        width: 298px;
+        background-color:#5E5E5E82 ;
+        box-shadow: inset 0px 4px 0px #00000040;
+
+    }
+    .thre input{
+        background-color: #5E5E5E82;
+        height: inherit;
+        width:240px;
+        border-radius: 20px;
+        font-size: 16px;
+        color: white;
+        border-top-right-radius: 0%;
+        border-bottom-right-radius: 0%;
+        padding-left: 10px;
+    }
+    .thre img{
+        padding: 10px;
+        cursor: pointer;
+    }
+    .fou{
+        display: flex;
+        flex-direction: column;
+        margin: 30px;
+        gap: 25px;
+        color: white;
+        z-index: 0.2;
+    }
+    .emp{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        height: 250px;
+        border-radius: 30px;
+        background-color: #5E5E5E82;
+    }
+    .details{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    span{
+        margin-left: 10px;
+    }
+    .nn{
+        width: 22px;
+        padding: 4px;
+        height: fit-content;
+        text-align: center;
+        background-color: grey;
+        border-radius: 50%;
+        border: 1px solid black;
+    }
+    .emp-cont>:last-child{
+        position:sticky;
+        bottom: 0;
+        z-index: 1;
+        width: 100%;
+    }
+}
+
+@media screen and (width<=412px) {
+    .emp-cont{
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+        background-color: black;
+    }
+    .one{
+        display: flex;
+        justify-content: space-between;
+        margin: 10px;
+    }
+    .one img{
+        cursor: pointer;
+    }
+
+    .two{
+        display: flex;
+        justify-content: center;
+        margin-top: 104px;
+    }
+    .thre{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+        margin-top: 30px;
+        height: 55px;
+        color: white;
+        border-radius: 20px;
+        width: 298px;
+        background-color:#5E5E5E82 ;
+        box-shadow: inset 0px 4px 0px #00000040;
+
+    }
+    .thre input{
+        background-color: #5E5E5E82;
+        height: inherit;
+        width:240px;
+        border-radius: 20px;
+        font-size: 16px;
+        color: white;
+        border-top-right-radius: 0%;
+        border-bottom-right-radius: 0%;
+        padding-left: 10px;
+    }
+    .thre img{
+        padding: 10px;
+        cursor: pointer;
+    }
+    .fou{
+        display: flex;
+        flex-direction: column;
+        margin: 30px;
+        gap: 25px;
+        color: white;
+        z-index: 0.2;
+    }
+    .emp{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        height: 250px;
+        border-radius: 30px;
+        background-color: #5E5E5E82;
+    }
+    .details{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    span{
+        margin-left: 10px;
+    }
+    .nn{
+        width: 22px;
+        padding: 4px;
+        height: fit-content;
+        text-align: center;
+        background-color: grey;
+        border-radius: 50%;
+        border: 1px solid black;
+    }
+    .emp-cont>:last-child{
+        position:sticky;
+        bottom: 0;
+        z-index: 1;
+        width: 100%;
+    }
+}

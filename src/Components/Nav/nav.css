@@ -1,11 +1,10 @@
 @media screen and (width<=412px) {
     .nav{
-        background: #38383880 0% 0% no-repeat padding-box;
+        background: transparent linear-gradient(262deg, #0F2323 0%, #0F2323 40%) 0% 0% no-repeat padding-box;
         mix-blend-mode: normal;
         border: 1px solid #000000;
-        opacity: 1;
         display: flex;
-        height: 4vh;
+        height: 61px;
         justify-content: space-around;
         align-items: center;
         }
